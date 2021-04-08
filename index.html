@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- 1.charset - Задает кодировку документа. -->
+    <!-- 2.http-equiv-Предназначен для конвертирования метатега в заголовок HTTP. -->
+  <!-- 3.content - Устанавливает значение атрибута, заданного с помощью name или http-equiv. -->
+  <!-- 4.name - Имя метатега, также косвенно устанавливает его предназначение. -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<div class="container">
+  <div class="jumbotron">
+    <h1>Есаков Глеб Андреевич</h1>
+    <p>Студент группы ИСП-089</p>
+    <a href="#" class="btn btn-primary btn-lg" role="button">Нажми на эту кнопку</a>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+        <code>
+          <p>I love programming</p>
+          <p>This paragraph is on my landing page</p>
+          &lt;br&gt;
+          <br>
+          &lt;br&gt;
+          <p>Bootstrap by example</p>
+        </code>
+    </div>
+    <div class="col-md-9">
+      <div class="row">
+        <div class="col-md-3">
+          <strong>Some text width</strong>
+        </div>
+        <div class="col-md-2">
+          <p>secondary text</p>
+        </div>
+        <div class="col-md-7">
+          <strong>Add to your favorites</strong>
+          <kbd>ctrl+d</kbd>
+        </div>
+      </div>
+      <img src="img/example5.PNG" alt="ERROR 404">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <img src="img/logo-bt.png" alt="ERROR 404">
+    </div>
+    <div class="col-md-5">
+      <blockquote class="blockquote">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis obcaecati ut cumque cupiditate?</p>
+      </blockquote>
+      <blockquote class="blockquote">
+        <p>-Какой-то ноунейм</p>
+      </blockquote>
+
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <img src="rewimg/pact.PNG" alt="ERROR 404">
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <p class="text-left">Left</p>
+      <strong>Lowercase</strong>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam provident quisquam libero nihil, nobis ea?</p>
+    </div>
+
+    <div class="col-md-3">
+      <p class="text-center">Center</p>
+      <strong>Uppercase</strong>
+      <p class="text-uppercase">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam provident quisquam libero nihil, nobis ea?</p>
+    </div>
+
+    <div class="col-md-3">
+      <p>Justify</p>
+      <strong>Capitlize</strong>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam provident quisquam libero nihil, nobis ea?</p>
+    </div>
+
+    <div class="col-md-3">
+      <p class="text-right">Right</p>
+      <p class="font-weight-bold ">Strong and italic</p>
+      <p class="font-weight-bold ">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      <p class="font-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+  </div>
+
+  <div class="row align-items-center justify-content-center">
+      <table class="table-bordered">
+        <thead>
+          <td class="table-secondary"><h4>Бесплатный план</h4></td>
+        </thead>
+        <tbody>
+          <tr class="text-center"><td>$ 0</td></tr>
+          <tr><td>Lorem, ipsum.</td></tr>
+          <tr></tr><td>Lorem, ipsum.</td></tr>
+          <tr></tr><td>Lorem, ipsum.</td></tr>
+          <tr></tr><td>-</td></tr>
+          <tr></tr><td>-</td></tr>
+          <tr class="text-center"><td><button class="btn btn-success">Purchase</button></td></tr>
+        </tbody>
+      </table>
+    
+      <table class="table-bordered">
+        <thead>
+          <td class="table-primary"><h4>Стандартный план</h4></td>
+        </thead>
+        <tbody>
+          <tr class="text-center"><td>$ 99</td></tr>
+          <tr><td>Lorem, ipsum.</td></tr>
+          <tr></tr><td>Lorem, ipsum.</td></tr>
+          <tr></tr><td>Lorem, ipsum.</td></tr>
+          <tr></tr><td>-</td></tr>
+          <tr></tr><td>-</td></tr>
+          <tr class="text-center"><td><button class="btn btn-primary">Purchase</button></td></tr>
+        </tbody>
+      </table>
+
+      <table class="table-bordered">
+        <thead>
+          <td class="table-danger"><h4>Премиум план</h4></td>
+        </thead>
+        <tbody>
+          <tr class="text-center"><td>$ 999</td></tr>
+          <tr><td>Lorem, ipsum.</td></tr>
+          <tr></tr><td>Lorem, ipsum.</td></tr>
+          <tr></tr><td>Lorem, ipsum.</td></tr>
+          <tr></tr><td>-</td></tr>
+          <tr></tr><td>-</td></tr>
+          <tr class="text-center"><td><button class="btn btn-danger">Purchase</button></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="row footer-bg">
+      <div class="col">
+        <p class="footer-info">Документация</p>
+        <p class="footer-info">Публикации</p>
+        <p class="footer-info">Twitter</p>
+        <p class="footer-info">Facebook</p>
+        <p class="footer-info">Vk</p>
+      </div>
+
+      <div class="col">
+        <p>ФИО</p>
+        <p>Фактический адрес</p>
+        <p>Юридический адрес</p>
+        <p>тел.:(123)-456-78-90</p>
+      </div>
+    </div>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</body>
+</html>
